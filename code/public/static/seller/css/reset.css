@@ -1,0 +1,43 @@
+@charset "gb2312";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,p,table,td,tr,input,ul,ol,li,dl,dt,dd,th,textarea{padding:0;margin:0;line-height:100%;font-size:12px;color: #404142;}
+h1,h2,h3,h4,h5,h6{ line-height:100%; font-weight:normal;}
+a{ color:#333; text-decoration: none;}
+li{ list-style:none;}
+table{  border-collapse:collapse;}
+a img{ border:0;}
+input,button{ outline:none; border:none 0; background:none;}
+textarea{ resize:none;outline:none; border:0 none; overflow:hidden;}
+form{ margin:0;}
+select{ outline:none;}
+.clearfix:after{ display:block; clear:both; content:'';}
+.clearfix{ zoom:1}
+
+/* CSS Document */
+.wrapper{ width:1150px; margin:0 auto;}
+/*reset*/
+body{ font-family: \5FAE\8F6F\96C5\9ED1,SimHei,Verdana;}
+.header{ height:56px; background-color:#FFF;}
+.header .left{ width:188px; height:56px; float:left;}
+.header .left h1{ background:url(//res.bangwo8.com/images/2015/logo.png?v=a749207e) no-repeat center; width:105px; height:38px; margin:8px 16px;}
+.header .left h1 a{ display:block; width:106px; height:38px;}
+.header .right{ width:660px; height:56px; float:left; position:relative; top:0; left:0;}
+.header .right ul{ padding-top:12px; height:44px;}
+.header .right li{ float:left; width:80px; height:44px; margin:0 4px;}
+.header .right li a{ display:block; width:80px; height:42px; border-bottom:2px solid #FFF; line-height:42px; text-align:center; color:#626262; font-size:14px;}
+.header .right li a:hover{ color:#01a4ed; border-bottom:2px solid #52c6f0;}
+.header .right .on a{color:#01a4ed; border-bottom:2px solid #52c6f0;}
+.header .right .btn{ position:absolute; right:-130px; top:20px; height:26px; width:168px;}
+.header .right .btn a{ display:block; width:78px; height:26px; text-align:center; line-height:26px; font-size:14px;}
+.header .right .btn .login{ width:78px; height:26px; background:url(//res.bangwo8.com/images/2015/login.png?v=ae1143dd) no-repeat center; float:left; margin-right:12px;}
+.header .right .btn .login a{color:#FFF;}
+.header .right .btn .register{ width:78px; height:26px; background:url(//res.bangwo8.com/images/2015/register.png?v=ab15d35f) no-repeat center;  float:left;}
+.header .right .btn .register a{ color:#51c4ef;}
+/*header*/
+
+
+.footer{ height:136px; padding-top:38px;}
+.footer .links{ text-align:center; color:#808080; font-size:16px; height:40px; line-height:40px;}
+.footer .links a{ color:#808080; padding:0 6px;}
+.footer p{ text-align:center; line-height:36px; color:#808080;} 
+/*footer*/

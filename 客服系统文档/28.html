@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="SmartWiki">
+    <title>更新日志 - AiService</title>
+    <!-- Bootstrap -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="static/css/default.css" rel="stylesheet">
+    <link href="static/css/zenburn.css" rel="stylesheet">
+    <link href="static/css/style.css" rel="stylesheet">
+    <link href="static/css/nprogress.css" rel="stylesheet">
+    <link href="static/css/kancloud.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://doc.baiyf.com/static/bootstrap/js/html5shiv.min.js"></script>
+    <script src="http://doc.baiyf.com/static/bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="static/js/jquery.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+<div class="m-manual manual-reader">
+
+    <header class="navbar navbar-static-top manual-head" role="banner">
+        <div class="container-fluid">
+            <div class="navbar-header pull-left manual-title">
+                <span class="slidebar" id="slidebar"><i class="fa fa-align-justify"></i></span>
+                智能客服文档
+                <span style="font-size: 12px;font-weight: 100;">v 2.1.6</span>
+            </div>
+            <div class="navbar-header pull-right manual-menu">
+                <div class="dropdown">
+                    <button id="dLabel" class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        项目
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="dLabel">
+                                                    <li><a href="javascript:" data-toggle="modal" data-target="#shareProject">项目分享</a> </li>
+                            <li role="presentation" class="divider"></li>
+                                                
+                        <li><a href="index.html" title="返回首页">返回首页</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <article class="container-fluid manual-body">
+        <div class="manual-left">
+            <div class="manual-tab">
+                <div class="tab-navg">
+                    <span data-mode="view" class="navg-item active"><i class="fa fa-align-justify"></i><b class="text">目录</b></span>
+                                                        </div>
+                <div class="tab-wrap">
+                    <div class="tab-item manual-catalog">
+                        <div class="catalog-list read-book-preview" id="sidebar">
+                            <ul><li id="1"><a href="1.html" title="系统简介">系统简介</a></li><li id="3"><a href="3.html" title="路由以及初始密码">路由以及初始密码</a></li><li id="4"><a href="4.html" title="常见问题">常见问题</a><ul><li id="5"><a href="5.html" title="连接错误">连接错误</a></li><li id="7"><a href="7.html" title="多商户和单商户的区别">多商户和单商户的区别</a></li><li id="8"><a href="8.html" title="启动报错">启动报错</a></li><li id="9"><a href="9.html" title="提示浏览器版本过低问题">提示浏览器版本过低问题</a></li><li id="10"><a href="10.html" title="mysql5.7出现的语法兼容问题">mysql5.7出现的语法兼容问题</a></li><li id="11"><a href="11.html" title="如何发送富媒体内容">如何发送富媒体内容</a></li><li id="12"><a href="12.html" title="透过nginx代理如何获取客户端真实ip">透过nginx代理如何获取客户端真实ip</a></li><li id="13"><a href="13.html" title="如何自定义发送商品消息">如何自定义发送商品消息</a></li></ul></li><li id="14"><a href="14.html" title="系统搭建">系统搭建</a><ul><li id="15"><a href="15.html" title="1、源码获取">1、源码获取</a></li><li id="16"><a href="16.html" title="2、通过宝塔搭建系统">2、通过宝塔搭建系统</a></li><li id="17"><a href="17.html" title="3、启动以及调试">3、启动以及调试</a></li><li id="18"><a href="18.html" title="4、调优建议【重要】">4、调优建议【重要】</a></li><li id="19"><a href="19.html" title="5、如何开启https">5、如何开启https</a></li><li id="20"><a href="20.html" title="6、如何启用自动应答机器人">6、如何启用自动应答机器人</a></li></ul></li><li id="29"><a href="29.html" title="api接口使用说明">api接口使用说明</a><ul><li id="30"><a href="30.html" title="1、查询可服务客服接口">1、查询可服务客服接口</a></li><li id="31"><a href="31.html" title="2、连接客服接口">2、连接客服接口</a></li><li id="32"><a href="32.html" title="3、推送聊天消息接口">3、推送聊天消息接口</a></li><li id="33"><a href="33.html" title="4、接受各种消息接口">4、接受各种消息接口</a></li></ul></li><li id="22"><a href="22.html" title="如何使用">如何使用</a><ul><li id="23"><a href="23.html" title="1、添加或者注册商户">1、添加或者注册商户</a></li><li id="24"><a href="24.html" title="2、添加客服分组">2、添加客服分组</a></li><li id="25"><a href="25.html" title="3、添加客服">3、添加客服</a></li><li id="26"><a href="26.html" title="4、接入网站">4、接入网站</a></li></ul></li><li id="27"><a href="27.html" title="功能介绍">功能介绍</a></li><li id="28" class="jstree-open"><a href="" title="更新日志" class="jstree-clicked">更新日志</a></li></ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="m-copyright">
+                <p>
+                    本文档使用
+                    <a href="javascript:;" target="_blank">SmartWiki</a> 发布
+                </p>
+            </div>
+        </div>
+        <div class="manual-right">
+            <div class="manual-article">
+                <div class="article-head">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-2">
+
+                            </div>
+                            <div class="col-md-8 text-center">
+                                <h1 id="article-title">更新日志</h1>
+                            </div>
+                            <div class="col-md-2">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="article-content">
+                    <div class="article-body editor-content" id="page-content">
+                        <h3 id="h3--v2.1.15"><a name="v2.1.15更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.1.15更新日志</h3>
+<pre><code>1、修复客服自定义多媒体发送显示错误问题
+2、修复tab双击导致无法看到聊天记录的问题
+3、修复socket离线自动绑定的错误问题
+4、pc客服工作台同步到最新的功能
+5、调整pc端弹层模式下粘贴预览大小
+</code></pre>
+<h3 id="h3--v2.1.14"><a name="v2.1.14更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.1.14更新日志</h3>
+<pre><code>1、商户自定义咨询框颜色、样式  
+2、修复访客重连后导致样式错乱的问题  
+3、客服增加示忙功能  
+4、访客超过8分钟不说话，自动关闭  
+5、客服按时间统计客服接待人数  
+6、修复切换到历史会话第一个访客不可滑动的问题  
+7、修复编辑管理员问题  
+</code></pre>
+<h3 id="h3--v2.1.13"><a name="v2.1.13更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.1.13更新日志</h3>
+<pre><code>1、机器人开启与关闭由商户设置
+2、快捷语支持客服和商户自定义
+3、客服可以撤回消息
+4、允许商户设置是否需要访客咨询前输入信息
+5、来路的显示不在匹配改为显示原始的url
+6、弹层和固定连接访问，访客身份识别为同一人
+7、聊天历史消息清理
+8、快捷语支持直接发送和编辑后发送
+9、移除自动识别url(存在诸多bug) 
+10、客服输入消息自动联想常用语
+11、修复常见问题显示问题
+12、固定连接在移动端增加返回按钮
+13、增加粘贴图片预览确认
+14、pc端上传增加loading提示
+15、更换分配方案为轮转分配，同时准备了3种分配方案，方便后续切换
+16、移动端留言后增加关闭返回
+17、增加自动备注开关
+18、离线用户自动往咨询列表后面排
+19、访客端弹层模式也增加消息声音提醒
+20、解决移动端复制问题
+</code></pre>
+<h3 id="h3--v2.1.12"><a name="v2.1.12更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.1.12更新日志</h3>
+<pre><code>1、增加客服工作台pc客户端
+2、修改客服退出的操作逻辑
+3、优化固定连接发包延迟判断逻辑
+4、修复移动端socket.io模式下js引用错误问题
+5、修复websocket模式固定连接模式下表情框定位问题
+6、修复websocket模式下常见问题发送2遍的问题
+7、修复粘贴内容发送按钮不亮的问题
+8、默认给访客备注，增加访客显示的友好度
+9、自动识别内容中的url链接
+10、优化商户后台的查看会话记录
+</code></pre>
+<h3 id="h3--v2.1.11"><a name="v2.1.11更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.1.11更新日志</h3>
+<pre><code>1、修复websocket模式下的访客发送图片不显示问题
+2、修复js检测录音在firefox下报错问题
+3、客服退出由循环检测改为延时退出
+4、商户后台增加历史聊天记录清理功能
+5、发布gatewayworker的websocket服务端1.0版本
+</code></pre>
+<h3 id="h3--v2.1.10"><a name="v2.1.10更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.1.10更新日志</h3>
+<pre><code>1、socket.io 的js增加了心跳包
+3、修复机器人模式下发送空消息问题
+4、修复总后台编辑商户信息导致密码修改的问题
+5、修复访客重连不在线的客服状态重置的逻辑判断不严谨的问题
+6、增加socket.io模式和websocket模式切换
+7、websocket服务端用swoole重构
+8、优化直连模式下，发包动作执行过快导致的连接失败问题
+9、模板路径用tp的模板标签，方便部署
+10、修复移动端键盘输入后不放下
+</code></pre>
+<h3 id="h3--v2.1.9"><a name="v2.1.9更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.1.9更新日志</h3>
+<pre><code>1、修复访客端发送空格空消息问题
+2、修复admin后台修改管理员信息错误问题
+3、增加客服app端api
+4、接入域名校验，支持输入多域名
+5、增加弹层模式域名是否校验的开关
+6、增加客服实时预览访客输入功能【需在 seller 配置文件选择开启或者关闭，默认关闭】
+![](images/screenshot_1585357884173.png)   
+</code></pre>
+<h3 id="h3--v2.1.8"><a name="v2.1.8更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.1.8更新日志</h3>
+<pre><code>1、优化常用语增加简略标题方便查看
+2、常用语内容采用富媒体模式编写
+3、咨询访客下方显示的对话由显示该访客的最后一句话，改成整体对话的最后一条
+4、新访客进入，声音提醒，并有角标 new 提示
+5、提供咨询完选择关闭功能
+6、提供新消息置顶功能
+7、主动接待列表自动更新优化
+8、增加展示客服累计服务人数
+9、优化发送图片显示缩略图变形问题
+10、移除常用语导入的功能
+11、修复总后台编辑商户导致密码错误修改问题
+12、修复由于浏览器导致的无法记录访客数据，导致的错误信息接入客服，导致访客无头像无法关闭的问题
+13、修复转接客服列表显示问题
+14、重构强化移动端功能，使得移动端功能更加丰富    
+</code></pre>
+<h3 id="h3--v2.1.7"><a name="v2.1.7更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.1.7更新日志</h3>
+<pre><code>1、修复加入黑名单客服id错误
+2、修复未开启机器人配置，客服不在线自动激活机器人接待问题
+3、移动端增加访客ip 和 地区的显示
+4、修复微信浏览器内按钮显示不全的问题
+5、商户后台可以更换客服头像
+6、pc客服工作台增加历史会话
+7、修复来消息，多个访客的聊天区域消息重叠样式问题
+8、修复客服当前接待人数显示错误问题
+</code></pre>
+<h3 id="h3--v2.1.6"><a name="v2.1.6更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.1.6更新日志</h3>
+<pre><code>1、机器人对话管理
+2、修复商户后台 读取聊天记录 点击更多报错问题
+3、增加可传入参数的接入方式
+4、兼容移动端发送问题
+5、修复ios下发送按钮显示不全问题
+</code></pre>
+<h3 id="h3--v2.1.5"><a name="v2.1.5更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.1.5更新日志</h3>
+<pre><code>1、后台显示上传限制优化
+2、已读未读服端发送优化
+3、修复问候语问题
+4、修复客服登录跳转商户url问题
+5、客服端单点登录限制
+7、所有的统计单独拉出，方便日后扩展
+8、调整商户后台客服工作台菜单的位置
+9、修复直连客服头像问题
+10、调整固定连接的咨询窗口宽高
+11、固定连接增加声音提示，并提供开关
+12、客服工作台提供主动触发声音按钮，解决浏览器阻拦声音播放问题
+13、增加访客地域统计
+14、修复第二次留言问题商户标识缺失问题
+15、商户后台增加未读留言提醒
+16、商户后台增加未读消息处理，标记为已读
+</code></pre>
+<h3 id="h3--v2.1.4"><a name="v2.1.4更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.1.4更新日志</h3>
+<pre><code>1、修复后台获取服务器ip问题
+2、加入客户接入客服有效期检测
+3、直连模式添加接入域名校验以及开关，默认不校验
+4、精简直连路由
+5、优化通信底层代码结构
+6、加入指定客服模式，直接咨询对应的客服
+7、快捷回复增加分类 以及 快速导入功能
+8、精简ssl的配置
+9、修复常见问题显示未读问题    
+</code></pre>
+<h3 id="h3--v2.1.3"><a name="v2.1.3更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.1.3更新日志</h3>
+<pre><code>1、修复添加常见问题数据库时间问题
+2、修复转接显示客服名称问题
+3、增加商户有效期管理
+4、修改添加商户默认有效为 30天，注册商户默认有效期为 3天
+5、增加admin后台操作日志
+6、增加admin后台登录日志
+7、解决断网/ios系统息屏 重连问题
+8、更换提示音
+9、增加客服来消息title提醒
+10、优化显示客服在线离线
+11、增加消息已读未读标识
+12、修复后台删除商户的数据维护完整性    
+</code></pre>
+<h3 id="h3--v2.1.2"><a name="v2.1.2更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.1.2更新日志</h3>
+<pre><code>1、解决ios下input无法输入中文的问题
+2、美化移动端登录页面
+3、增强访客端安全
+4、聊天记录查询bug
+5、优化admin登录页面
+6、访客端增加文件的发送
+7、访客端增加图片粘贴功能
+8、控制台增加 通知功能
+9、移动端增加发动语音
+10、优化常用语显示
+11、接待列表显示访客最新一条消息      
+</code></pre>
+<h3 id="h3--v2.1.1"><a name="v2.1.1更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.1.1更新日志</h3>
+<pre><code>1、增加评价体系
+2、接待统计
+3、优化显示当前服务的客服昵称
+4、访客端显示客服输入状态
+5、配置项略作修改
+6、修复访客端为正确读取配置端口问题
+7、增加客服评价统计
+</code></pre>
+<h3 id="h3--v2.1.0"><a name="v2.1.0更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.1.0更新日志</h3>
+<pre><code>1、全新的通讯架构，确保消息的可靠性
+前端 socket.io 提升兼容性
+后端 辅助以 phpsocket.io
+
+2、修复来路问题
+3、修复客服登录问题
+4、修复商户编辑客服问题
+5、兼容不规范退出导致的连接失败问题
+6、修复不断尝试分配导致服务器卡死问题    
+</code></pre>
+<h3 id="h3--v2.0.6"><a name="v2.0.6更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.0.6更新日志</h3>
+<pre><code>1、修复 管理后台 修改密码的问题
+2、修复问候缓存问题
+3、未连接成功前禁止输入
+4、欢迎语修改为不入数据库
+5、发送语音
+6、常见问题管理     
+</code></pre>
+<h3 id="h3--v2.0.5"><a name="v2.0.5更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.0.5更新日志</h3>
+<pre><code>1、修改客服工作台登录验证码为滑块验证码
+2、修复验证码 firefox不可点击更换问题
+3、增加验证码的样式配置
+4、客服工作台添加成功、断开提示
+5、加入来路统计
+6、完善访客信息
+7、增加黑名单功能
+8、商户后台增加黑名单管理
+9、商户后台首页接待量统计
+10、修改问候语策略，20分钟内只对同一访客发送1次问候语      
+</code></pre>
+<h3 id="h3--v2.0.4"><a name="v2.0.4更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.0.4更新日志</h3>
+<pre><code>1、总管理后台首页统计完善
+2、总管理后台增加密码修改
+3、总管理后台添加客服管理
+4、总管理后台添加管理员管理
+5、客服工作台接入粘贴图片功能
+6、客服工作台增加发送文件功能
+</code></pre>
+<h3 id="h3--v2.0.3"><a name="v2.0.3更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.0.3更新日志</h3>
+<pre><code>1、修复客户端拉取聊天记录校验问题
+2、修复客户端自定义访客信息生成问题
+3、增加访客最小化窗口，收到消息打开页面功能
+4、增加留言板关闭按钮
+5、增加 客服移动端工作台 第一版
+6、商户端修改密码    
+</code></pre>
+<h3 id="h3--v2.0.2"><a name="v2.0.2更新日志" class="reference-link"></a><span class="header-link octicon octicon-link"></span>v2.0.2更新日志</h3>
+<pre><code>1.  加入 api 模式
+2.  加入留言板
+3.  增加enter发送
+4.  增加固定连接打开客服
+5.  在线访客自动接待
+6. 修复输入聊天区域不滑动到最底端问题
+7. 修复商户分组建立修改问题
+8. 优化客服工作台聊天日志拉取
+9. 修复弹层接入无传入自定义用户信息的问题
+10. 修复用户随机名字超长科学计数的问题
+</code></pre>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="manual-progress"><b class="progress-bar"></b></div>
+    </article>
+    <div class="manual-mask"></div>
+</div>
+
+    <!-- Share Modal -->
+    <div class="modal fade" id="shareProject" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">项目分享</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="password" class="col-sm-2 control-label">项目地址</label>
+                        <div class="col-sm-10">
+                            <input type="text" value="http://doc.baiyf.com/show/1" class="form-control" onmouseover="this.select()" id="projectUrl" title="项目地址">
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="static/js/jstree.min.js"></script>
+<script type="text/javascript" src="static/js/layer.js"></script>
+<script type="text/javascript" src="static/js/nprogress.js"></script>
+<script type="text/javascript" src="static/js/highlight.js"></script>
+<script type="text/javascript" src="static/js/highlightjs-line-numbers.min.js"></script>
+<script type="text/javascript">
+    var events = $("body");
+    var catalog = null;
+    /**
+     * 初始化高亮插件
+     */
+    function initHighlighting() {
+        $('pre code').each(function (i, block) {
+            hljs.highlightBlock(block);
+        });
+
+        hljs.initLineNumbersOnLoad();
+    }
+    $(function () {
+        initHighlighting();
+
+        var windowHeight = $(window).height();
+        var bodyHeight = $(document).height();
+
+        $(window).resize(function(){
+            var windowHeight = $(window).height();
+            var bodyHeight = $(document).height();
+        });
+
+        catalog = $("#sidebar").jstree({
+            'plugins':["wholerow","types"],
+            "types": {
+                "default" : {
+                    "icon" : false  // 删除默认图标
+                }
+            },
+            'core' : {
+                'check_callback' : false,
+                "multiple" : false ,
+                'animation' : 0
+            }
+        }).on('select_node.jstree',function (node,selected,event) {
+            $(".m-manual").removeClass('manual-mobile-show-left');
+            var url = selected.node.a_attr.href;
+
+            if(url == window.location.href){
+                return false;
+            }
+            window.location.href=url;$.ajax({
+                url : url,
+                type : "GET",
+                beforeSend :function (xhr) {
+                    var body = events.data('body_' + selected.node.id);
+                    var title = events.data('title_' + selected.node.id);
+                    var doc_title = events.data('doc_title_' + selected.node.id);
+
+                    if(body && title && doc_title){
+
+                        $("#page-content").html(body);
+                        $("title").text(title);
+                        $("#article-title").text(doc_title);
+
+                        events.trigger('article.open',url,true);
+
+                        return false;
+                    }
+                    NProgress.start();
+                },
+                success : function (res) {
+                    if(res.errcode == 0){
+                        var body = res.data.body;
+                        var doc_title = res.data.doc_title;
+                        var title = res.data.title;
+
+                        $("#page-content").html(body);
+                        $("title").text(title);
+                        $("#article-title").text(doc_title);
+
+                        events.data('body_' + selected.node.id,body);
+                        events.data('title_' + selected.node.id,title);
+                        events.data('doc_title_' + selected.node.id,doc_title);
+
+                        events.trigger('article.open',url,false);
+
+                    }else{
+                        layer.msg("加载失败");
+                    }
+                },
+                complete : function () {
+                    NProgress.done();
+                }
+            });
+        });
+
+        $("#slidebar").on("click",function () {
+            $(".m-manual").addClass('manual-mobile-show-left');
+        });
+        $(".manual-mask").on("click",function () {
+            $(".m-manual").removeClass('manual-mobile-show-left');
+        });
+    });
+
+    events.on('article.open', function (event, url,init) {
+        if ('pushState' in history) {
+
+            if (init == false) {
+                history.replaceState({}, '', url);
+                init = true;
+            } else {
+                history.pushState({}, '', url);
+            }
+
+        } else {
+            location.hash = url;
+        }
+        initHighlighting();
+
+    });
+</script>
+</body>
+</html>

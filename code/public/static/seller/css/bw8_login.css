@@ -1,0 +1,472 @@
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,
+pre,form,fieldset,legend,input,button,textarea,i{
+	margin:0;padding:0;
+}
+html,body{
+	height: 100%;
+	min-height: 500px;
+	font-family: "Microsoft YaHei";
+}
+li{
+	list-style: none;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+	font-family: "Microsoft YaHei";
+}
+p{
+	font-family: "Microsoft YaHei";
+}
+input{
+	font-family: "Microsoft YaHei";
+}
+.dhn_fl{
+	float: left;
+}
+.dhn_fr{
+	float: right;
+}
+.dhn_fr a{
+	font-size:12px;
+	color:#00349e;
+	text-decoration: none !important;
+}
+/*.dhn_fr a:hover{*/
+/*	font-size:12px;*/
+/*	color:#0635ff;*/
+/*}*/
+html,body .bw8_login *{
+	-webkit-box-sizing: content-box;
+    -moz-box-sizing:content-box;
+    box-sizing:content-box;
+}
+.bw8_login_content{
+	width: 452px;
+	margin: auto;
+	height: 442px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	z-index: 1;
+	margin-left:-226px;
+	margin-top:-222px;
+}
+.bw8_header_logo{
+width: 1000px;
+height: 75px;
+margin: auto;
+}
+		
+.bw8_logo_icon{
+	height: 75px;
+	width: 130px;
+	background: url(/static/seller/images/bw_logo.png?v=a4f985b9) no-repeat;
+	display: block;
+}
+.login_title{
+	font-size: 22px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 26px;
+	font-family: "Microsoft YaHei";
+	line-height: 1;
+}
+.login_content{
+	width: 331px;
+	height: 339px;
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 20px;
+	box-shadow:0px 2px 13px 0px rgba(23,33,47,0.34);
+	/*background: url(../../images/new_20171221/img/login_content_bkg.png) no-repeat;*/
+	padding: 53px 61px 0 60px;
+}
+.bw8_input{
+	width: 333px;
+	height: 43px;
+}
+.bw8_input input{
+	width: 303px;
+	height: 43px;
+	outline: none;
+	border: none;
+	line-height: 43px;
+	background: rgba(255,255,255,.8);
+	/*background: url(../../images/new_20171221/img/input_nor.png) no-repeat;*/
+	font-size: 14px;
+	padding-left: 30px;
+	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	border-radius: 22px;
+
+}
+.bw8_input input::-webkit-input-placeholder,.p1 input::-webkit-input-placeholder{
+	color:#b6b9bd;
+}
+.bw8_input input:hover::-webkit-input-placeholder,.p1 input:hover::-webkit-input-placeholder{
+	color:#0060df;
+}
+.bw8_login_input,.bw8_pwd_input,.code_content{
+	height: 70px;
+}
+.code_content{
+	width: 333px;
+}
+.code_content input{
+	width: 166px;
+	height: 43px;
+	outline: none;
+	border: none;
+	line-height: 43px;
+	color: #244c69;
+	font-size: 14px;
+	float: left;
+	padding-left: 30px;
+	background: rgba(255,255,255,.8);
+	border-radius: 22px;
+	/*background: url(../../images/new_20171221/img/code_bkg.png) no-repeat;*/
+}
+.code_img_a{
+	height: 31px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.code_img{
+	height: 31px;
+	width: 68px;
+	display: inline-block;
+	float: left;
+}
+.exchange_code{
+	display: inline-block;
+	line-height: 31px;
+	text-decoration: underline;
+	color: #005afe;
+	font-size: 12px;
+	/*float: left;*/
+	margin-left: 10px;
+}
+.bw8_login_btn input{
+	width: 331px;
+	height: 41px;
+	outline: none;
+	line-height: 41px;
+	color: #fff;
+	font-size:16px;
+	cursor: pointer;
+	text-align: center;
+	background: #1677f8;
+	border: 1px solid #4493fc;
+	border-radius: 22px;
+	/*background: url(../../images/new_20171221/img/bw8_login_btn.png) no-repeat;*/
+}
+.bw8_login_btn input:hover{
+	border-color: #4493fc;
+	background: #0060df;
+	/*background: url(../../images/new_20171221/img/bw8_login_hover.png) no-repeat;*/
+}
+.bw8_login_pwd_btn{
+	width: 273px;
+	padding:20px 30px;
+}
+.bw8_login_pwd_btn a{
+	color: #ffffff;
+	/*text-shadow: #23262e 0px 0px 15px;*/
+	font-size: 14px;
+}
+.bw8_login_pwd_btn a:hover{
+	color: #1677f8;
+	/*text-decoration: underline;*/
+}
+.bw8_footer{
+	height: 50px;
+	text-align: center;
+	font-size: 12px;
+	color: #d1d2d3 !important;
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+	font-family: "瀵邦喛钂嬮梿鍛寸拨";
+}
+.bw8_footer p{
+	line-height: 25px;
+	text-align: center;
+	letter-spacing:1px;
+}
+
+.bw8_input p{
+	clear: both;
+	font-size: 12px;
+	color: #971900;
+	padding-left: 30px;
+	line-height: 25px;
+}
+.code_content p{
+	clear: both;
+	font-size: 12px;
+	color: #971900;
+	padding-left: 30px;
+}
+.bw8_input input:hover{
+}
+
+
+
+/*瀵邦喕淇婇惂璇茬秿*/
+.wx_login .login_content{
+	padding: 35px 61px 0 60px;
+	height: 365px;
+}
+.wx_login .wx_login_cut{
+	position: relative;
+	font-size: 14px;
+	line-height: 36px;
+	color: #244C68;
+	text-align: center;
+}
+.wx_login_btns{
+	display: none;
+}
+.wx_login .wx_login_btns{
+	display: block;
+}
+.wx_login_cut:before,.wx_login_cut:after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 18px;
+	width: 150px;
+	height: 1px;
+	background: rgba(36, 76, 104, 0.8);
+	background: linear-gradient(to left, #244C68 0%,rgba(255,255,255,0) 80%);
+}
+.wx_login_cut:after{
+	right: 0;
+	background: linear-gradient(to right, #244C68 0%,rgba(255,255,255,0) 80%);
+}
+.wx_login_link{
+	display: block;
+	width: 331px;
+	height: 41px;
+	font-size: 14px;
+	line-height: 41px;
+	text-align: center;
+	color: #244C68;
+	background: rgba(255,255,255,.8);
+	border: 1px solid rgba(255,255,255,.8);
+	border-radius: 22px;
+	cursor: pointer;
+	user-select: none;
+}
+.wechat_icon{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 7px;
+	background: url('/static/seller/images/wechat_2.svg?v=a8b83b57') no-repeat center;
+	background-size: cover;
+}
+.wx_login_link:hover{
+	background: #4faa4d;
+	border: 1px solid #74c66f;
+	color: #fff;
+}
+.wx_login_link:hover .wechat_icon{
+	background: url('/static/seller/images/wechat_3.svg?v=a09d9941') no-repeat center;
+	background-size: cover;
+}
+
+.wx_login .bw8_login_input,.wx_login .bw8_pwd_input,.wx_login .code_content{
+	height: 61px;
+}
+.wx_login .bw8_input p{
+	line-height: 16px;
+}
+.wx_login .code_content p{
+	line-height: 16px;
+}
+
+.wx_login_popup{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -250px;
+	z-index: 100;
+	width: 100%;
+	height: 500px;
+	background: rgba(255,255,255,.9);
+}
+.wx_login_content{
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	height: 100%;
+	padding: 33px 0;
+	color: #234B69;
+	text-align: center;
+}
+.wx_login_close{
+	width: 82px;
+	height: 36px;
+	background: #f7f7f7;
+	border-radius: 18px;
+	line-height: 36px;
+	cursor: pointer;
+}
+.wx_login_close img{
+	display: inline-block;
+	width: 12px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.wx_login_title{
+	margin: 40px 0 20px;
+	line-height: 1;
+	font-size: 28px;
+}
+.wx_login_desc{
+	font-size: 18px;
+	line-height: 1;
+	margin-top: 10px;
+}
+.wx_login_qrcode{
+	height: 254px;
+}
+.wx_login_qrcode_img_out{
+	position: relative;
+	width: 254px;
+	height: 254px;
+	margin: 0 auto;
+
+}
+.wx_login_qrcode_img{
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+.wx_login_qrcode_img_mask{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.7);
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 250px;
+	cursor: pointer;
+}
+
+.bw8_login.wx_login_bind{
+	background: url("/static/seller/images/wxlogin_bg.jpg?v=a30d565e") no-repeat center;
+	background-size: cover;
+}
+
+/*缁備焦顒涢懛顏勫З婵夘偄鍘栭惃鍕矋閼硅尪鍎楅弲锟�*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	-webkit-transition-delay: 9999s;
+	-webkit-transition: color 9999s ease-out, background-color 9999s ease-out;
+}
+
+
+.bw8_header_content{
+	display: none;
+}
+.login_img{
+	display: none;
+}
+.login_user{
+
+}
+.bw8_footer_hearder{
+	display: none;
+}
+.ad_show_wrap .bw8_logo_icon{
+	float: left;
+}
+.ad_show_wrap .bw8_header_content{
+	display: block;
+	float: left;
+	font-size: 14px;
+	color: #fff;
+	margin-top:40px;
+	margin-left:11px;
+}
+.ad_show_wrap .login_img{
+	display: block;
+}
+.ad_show_wrap .login_user{
+
+}
+.ad_show_wrap .bw8_footer_hearder{
+	display: block;
+}
+
+.ad_show_wrap .bw8_login_content{
+	width: initial;
+	height: initial;
+	transform: translate(-50%,-50%);
+	margin: 0;
+}
+.ad_show_wrap .login_title{
+	letter-spacing: 2px;
+}
+.ad_show_wrap .login_content{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height:100%;
+	background: rgba(255, 255, 255, 0.68);
+	padding: 43px 39px 35px 39px;
+	box-sizing: border-box;
+}
+
+.ad_show_wrap .login_user{
+	margin-left:71px;
+}
+.ad_show_wrap .bw8_input input{
+	border:1px solid;
+	border-color: rgba(0,0,0,.3);
+}
+.ad_show_wrap .p1>input{
+	border: 1px solid !important;
+	border-color: rgba(0,0,0,.3) !important;
+}
+.ad_show_wrap .bw8_login_pwd_btn a{
+	color: #407fd4;
+}
+.ad_show_wrap .bw8_footer{
+	bottom: 40px;
+}
+.ad_show_wrap .bw8_footer .bw8_footer_hearder{
+	 display: flex;
+	 align-items: center;
+	 font-size: 14px;
+	 color: #bbd8ff;
+	 justify-content: center;
+	 margin-bottom: 10px;
+ }
+.ad_show_wrap .bw8_footer .bw8_footer_hearder .bw8_footer_line{
+	height: 1px;
+	background: rgba(255,255,255,.4);
+	width: 68px;
+	margin: 0 18px;
+	display: inline-block;
+}
+
+.ad_show_wrap.wx_login .login_content{
+	height: inherit;
+}
+.ad_show_wrap.wx_login_link{
+	border: 1px solid rgba(0,0,0,.3);
+}
